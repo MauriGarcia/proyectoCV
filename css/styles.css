@@ -1,0 +1,53 @@
+body {
+    background-color:ivory;
+}
+
+h1 {
+    border-right: 3px solid white; 
+    padding-right: 15px;
+    padding-left: 15px; 
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: underline solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: capitalize;
+}
+
+.skill {
+    border: 2px ridge red;
+    border-radius: 10px;
+    padding: 5px;
+    background-color:gainsboro;
+    box-shadow: 2px 2px 7px 1px #1C6EA4;
+}
+
+.item {
+    color: #000000;
+    font-weight: 700;
+    text-decoration: underline solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: capitalize;
+    margin-right: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #212529;
+    color: white;
+}
+
+#description {
+    border: 5px dotted rgba(28,110,164,0.52);
+    border-radius: 0px 40px 40px 0px;
+}

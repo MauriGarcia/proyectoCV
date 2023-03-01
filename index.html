@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto - Curriculum Vitae</title>
+    <link rel="icon" type="image/x-icon" href="./logo.png">
+    <link rel="stylesheet" href="./css/styles.css">
+    <!--Googlefonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap" rel="stylesheet">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+<body>
+    <header class="navbar sticky-top navbar-expand-lg bd-navbar bg-dark" data-bs-theme="dark">
+        <nav class="navbar">
+            <div class="container-fluid"> 
+                <img src="./logo.png" alt="Logo CV." height="30px" width="30px"> 
+                <h1 class="navbar-brand"><a class="nav-link active" href="#header">Curriculum Vitae</a></h1>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#infPersonal">Información Personal</a> 
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#exp">Experiencia</a> 
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#skills">Aptitudes</a> 
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav> 
+    </header>
+    <div id="header" style="margin-left: 30px;">
+        <div class="container-fluid" style="margin-top: 20px;">
+            <div class="row">
+                <div class="col-auto">
+                    <img id="profileImg" src="https://i.stack.imgur.com/4powQ.gif" alt="Logo CV." width="150px" height="150px" style="border-radius: 50%;">
+                </div>
+                <div class="col-auto col-md-4">
+                    <p id="description">A lo largo de mi carrera he desarrollado un proceso muy flexible, capaz de adaptarse a distintos contextos empresariales gracias a mis fortalezas en el manejo de programas para desarrollar puedo lograr un alto impacto. Como HTML, CSS y JavaScript. Especialmente, mis puntos fuertes están en el desarrollo web.
+                        Mi estilo combina con los objetivos y valores de la compañía, y son estas aptitudes las que deseo sumar al equipo para impulsar el desarrollo de los proyectos.</p>
+                </div>
+            </div>
+        </div>
+
+        <h2 id="infPersonal">Información Personal</h2>
+        <Form action="" method="POST">
+            <ul>
+                <li>
+                    <div>
+                        <label class="item">Nombre y Apellido: </label> 
+                        <label id="completeName"></label>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <label class="item">Género: </label> 
+                        <label id="gender"></label>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <label class="item">Email: </label> 
+                        <label id="email"></label>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <label class="item">Edad: </label> 
+                        <label id="age"></label>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <label class="item">Fecha de Nacimiento: </label> 
+                        <label id="dateBorn"></label>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <label class="item">Número Fijo: </label> 
+                        <label id="phone"></label>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <label class="item">Número Celular: </label> 
+                        <label id="cell"></label>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <label class="item">Dirección: </label> 
+                        <label id="address"></label>
+                    </div>
+                </li>
+            </ul>
+        </Form>
+
+        <h2 id="exp">Experiencia</h2>
+
+        <div class="container-fluid" style="border-bottom-left-radius:1px;border-bottom-right-radius:1px"><em><strong>Programador web</strong></em>
+            <p><em>MadridTech</em></p>
+            <p><em>Junio de 2019 – Actualidad</em></p>
+            <ul>
+                <li><em>Encargado del departamento de programación</em></li>
+                <li><em>Jefe del departamento de investigación</em></li>
+                <li><em>Desarrollo de más de 12 apps para teléfonos móviles</em></li>
+                <li><em>Aumento del rendimiento web en un 34%</em></li>
+            </ul>
+            <p><em><strong>Programador de aplicaciones</strong></em></p>
+            <p><em>MadridInk</em></p>
+            <p><em>Julio de 2015 – Mayo de 2019</em></p>
+            <ul>
+                <li><em>Supervisor del área de desarrollo de apps</em></li>
+                <li><em>Salida al mercado de más de 8 aplicaciones para restaurantes</em></li>
+                <li><em>Automatización de servicios para hoteles</em></li>
+                <li><em>Capacitación a nuevos programadores</em></li>
+            </ul>
+            <p><em><strong>Desarrollador de software</strong></em></p>
+            <p><em>BioWeb</em></p>
+            <p><em>Mayo de 2014 – Junio de 2015</em></p>
+            <ul>
+                <li><em>Creador de la página web de la empresa</em></li>
+                <li><em>Captación de más de 1200 clientes en un tiempo inferior a un año</em></li>
+                <li><em>Implementación de tienda online</em></li>
+                <li><em>Automatización de redes sociales</em></li>
+            </ul>
+        </div>
+
+        <h2 id="skills">Aptitudes</h2>  
+
+        <div class="container-fluid text-center">
+            <div class="row">
+                <div class="col-auto">
+                    <p class="skill"><strong>GitHub</strong></p>
+                    <p class="skill"><strong>Slack</strong></p>
+                    <p class="skill"><strong>JIRA</strong></p>
+                    <p class="skill"><strong>SCRUM</strong></p>
+                </div>
+                <div class="col-auto align-self-center">
+                    <p class="skill"><strong>HTML</strong></p>
+                    <p class="skill"><strong>CSS</strong></p>
+                    <p class="skill"><strong>JavaScript</strong></p>
+                    <p class="skill"><strong>Python</strong></p>
+                </div>
+                <div class="col-auto align-self-center">
+                    <p class="skill"><strong>Selenium</strong></p>
+                    <p class="skill"><strong>Webdriverio</strong></p>
+                    <p class="skill"><strong>TestLink</strong></p>
+                    <p class="skill"><strong>Automatización</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>  
+
+    <footer>
+        <p>Author: Mauricio Garcia<br>
+        <a href="mailto:mauri.jope@gmail.com">mauri.jope@gmail.com</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="./js/getData.js"></script>
+</body>
+</html>
